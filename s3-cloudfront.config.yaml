@@ -1,1 +1,5 @@
 bucket_name: frontend.${EnvironmentName}.${DnsDomain}
+bucket_policy:
+  OpsAccount:
+    principal:
+      AWS: arn:aws:iam::100326175372:root # ops account
